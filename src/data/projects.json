@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Resume",
+    "imageSrc": "projects/project.png",
+    "description": "Click on the link & Download the Resume.",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Letter of Interest",
+    "imageSrc": "projects/project.png",
+    "description": "Click on the link & Download the Letter of Interest.",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Transcripts",
+    "imageSrc": "projects/project.png",
+    "description": "Please Download my Graduate/Undergraduate Transcripts from here.",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Projects",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "source": "https://www.github.com"
+  }
+]

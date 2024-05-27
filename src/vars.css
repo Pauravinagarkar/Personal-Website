@@ -1,0 +1,40 @@
+:root {
+    /* Colours 
+    --color-text: #F4F4F4;
+    --color-primary:   #2F4858;
+    --color-secondary: #33658A ;
+    --color-dark: #470b13;
+    --color-bg:   #FFC107; 
+    --color-primary: #FF6B6B; /* Dark Blue 
+    --color-secondary: #FFD93D ; /* Grey Blue 
+    --color-accent-1: #6BCB77 ; /* Crimson Red 
+    --color-accent-2: #4D96FF; /* Off White 
+    --color-background: #CAF0F8; /* Soft Blue 
+    --color-primary: #005f73; 
+    --color-secondary: #adb5bd; /* Grey Blue 
+    --color-accent-1: #6A8D92; /* Crimson Red 
+    --color-accent-2: #f8f9fa; /* Off White 
+    --color-background: #CAF0F8; /* Pale Sky Blue 
+    --color-text: #353535;  
+    --color-primary: #3A5068ff;
+    --color-secondary:  #3B5A80ff;
+    --color-accent-1:  #AFD6F8ff;
+    --color-accent-2: #986C94ff;
+    --color-background: #86BEEEff;
+    --color-text: #fff; 
+    --color-primary: #D60A5F;  coral-pink: bright and attention-grabbing for primary elements 
+    --color-secondary:  #8CA0AD;  silver: neutral for secondary elements 
+    --color-accent-1: #868483ff;  battleship-gray: subtle for tertiary elements or accents 
+    --color-accent-2: #BFDBEC; timberwolf: light gray for secondary accents 
+    --color-background: #D4EAEF ; /* night: very dark for the background 
+    --color-text:  #333333; */
+    --color-primary: #0a192f; /* Navy */
+    --color-secondary: #112240; /* Light Navy */
+    --color-accent-1: #64ffda; /* Green */
+    --color-accent-2: #ccd6f6; /* Lightest Slate */
+    --color-background: #0a192f; /* Lightest Navy */
+    --color-text: #e6f1ff; /* White */
+    /* Fonts */
+    --font-roboto: "Roboto";
+  }
+  

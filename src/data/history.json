@@ -1,0 +1,19 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "Capgemini",
+    "startDate": "Jan, 2022",
+    "endDate": "July 2022",
+    "experiences": ["Transformed Discover Financial Services' workflows", "Achieved 15% reduction in time expenditure","Led Cobol to Java migration","Saved $128,000 annually"],
+    "imageSrc": "history/CAP.png"
+  },
+  {
+    "role": "Associate Software Engineer",
+    "organisation": "Capgemini",
+    "startDate": "Nov, 2020",
+    "endDate": "Dec, 2021",
+    "experiences": ["Collaborated with Discover Financial Services", "Improved software quality and efficiency","Developed RESTful web-service","Enabled comprehensive testing and productization"],
+    "imageSrc": "history/CAP.png"
+  }
+  
+]

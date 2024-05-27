@@ -1,0 +1,59 @@
+[
+  {
+    "title": "PYTHON",
+    "imageSrc": "skills/download.png"
+  },
+  {
+    "title": "JAVA",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "COBOL",
+    "imageSrc": "skills/cobol.png"
+  },
+  {
+    "title": "JAVASCRIPT",
+    "imageSrc": "skills/.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "MYSQL",
+    "imageSrc": "skills/MYSQL.png"
+  },
+  {
+    "title": "POSTGRESQL",
+    "imageSrc": "skills/POSTGRESQQL.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "APACHE SPARK",
+    "imageSrc": "skills/APACHE SPARK.png"
+  },
+  {
+    "title": "APACHE HADOOP",
+    "imageSrc": "skills/HADOOP.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  }
+  
+]

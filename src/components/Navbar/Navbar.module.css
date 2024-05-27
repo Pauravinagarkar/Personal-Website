@@ -1,0 +1,114 @@
+@import "../../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 61px;
+  z-index: 2;
+  margin: 0 10%;
+  padding: 1rem 2rem; /* Adjust padding to your preference */
+  background-color: #D4EAEF; /* Example background color, adjust as needed */
+  border-bottom: 5px solid  #D60A5F; /* This adds the separating line */
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+
+.menuBtn {
+  display: none;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 25px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+
+  @keyframes drive {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100%); }
+  }
+
+  .car {
+    background-image: url('/assets/nav/carImage.svg'); /* Path to your car image */
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 50px; /* Size of the car image */
+    height: 20px; /* Size of the car image */
+    left: 0;
+    bottom: 100%; /* Position the car above the navbar links */
+    transform: translateX(0);
+    animation: drive 2s linear infinite; /* Apply the animation */
+    pointer-events: none; /* Prevent the car from being clickable */
+  }
+
+  .navLink {
+    position: relative;
+    overflow: hidden; /* Ensures the car doesn't move outside the link's boundary */
+    /* ... other styles ... */
+  }
+  
+  .navLink:hover .car {
+    /* Start the car animation when the link is hovered */
+    animation-play-state: running;
+  }
+}

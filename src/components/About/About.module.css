@@ -1,0 +1,107 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  
+  background-color: var(--color-primary);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.title {
+  color: #f5f5dc;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.aboutImage {
+  width: 35%;
+  margin-right: 20px;
+  
+  
+}
+
+.aboutItems {
+  color: #f5f5dc;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-color: rgba(128, 124, 119, 0.42);
+  background-image: linear-gradient(
+  90deg,
+  rgba(168, 164, 159, 0.42) 0%, /* Your color #A8A49F with added opacity */
+  rgba(255, 255, 255, 0) 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  transition: background-image 0.3s;
+  border: 2px solid #A8A49F;
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(239, 142, 127, 0.42) 0%, /* This is the color #EF8E7F at 42% opacity */
+    rgba(239, 142, 127, 0) 100%   /* This is the color #EF8E7F but fully transparent */
+  );
+}
+
+.aboutItem h3 {
+ 
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
